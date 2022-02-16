@@ -3,12 +3,10 @@ div > .vimiumHintMarker {
     border: solid gray 1px !important;
     border-radius: 1px 1px 1px 1px;
 }
-    
 div > .vimiumHintMarker span {
     color: white !important;
     font-weight: bold !important;
     font-size: 12px !important;
 }
-    
 div > .vimiumHintMarker > .matchingCharacter {
 }
