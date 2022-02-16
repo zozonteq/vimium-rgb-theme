@@ -16,6 +16,7 @@ div > .vimiumHintMarker span {
     font-size: 12px !important;
 }
 div > .vimiumHintMarker > .matchingCharacter {
+    color :rgb(126, 126, 126) !important;
 }
 @-webkit-keyframes rainbow {
     0%{filter :hue-rotate(0deg);}   
