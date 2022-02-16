@@ -4,7 +4,7 @@ div > .vimiumHintMarker {
     border-radius: 3px 3px 3px 3px;
     background: rgb(255, 255, 255) !important;
     background-size: 800% 800%;
-    box-shadow: #ff2400 0px 0px 5px 2px;
+    box-shadow: #ff2400 0px 0px 5px 2px !important;
     -webkit-animation: rainbow 5s ease infinite;
     -z-animation: rainbow 5s ease infinite;
     -o-animation: rainbow 5s ease infinite;
