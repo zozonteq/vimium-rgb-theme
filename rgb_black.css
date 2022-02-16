@@ -1,14 +1,14 @@
 div > .vimiumHintMarker {
 
-    border: solid #ff2400 1px !important;
-    border-radius: 3px 3px 3px 3px;
-    background: black !important;
-    background-size: 800% 800%;
-    box-shadow: #ff2400 0px 0px 5px 2px;
-    -webkit-animation: rainbow 5s ease infinite;
-    -z-animation: rainbow 5s ease infinite;
-    -o-animation: rainbow 5s ease infinite;
-    animation: rainbow 5s ease infinite;
+    border: solid gray 1px !important;
+    border-radius: 1px 1px 1px 1px;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+      animation: rainbow 18s ease infinite;
 }
 div > .vimiumHintMarker span {
     color: white !important;
@@ -17,43 +17,40 @@ div > .vimiumHintMarker span {
 }
 div > .vimiumHintMarker > .matchingCharacter {
 }
-@-webkit-keyframes rainbow {
-    0%{filter :hue-rotate(0deg);}   
-    14%{filter :hue-rotate(45deg);} 
-    28%{filter :hue-rotate(90deg);}
-    32%{filter :hue-rotate(135deg);}
-    43%{filter :hue-rotate(180deg);}
-    71%{filter :hue-rotate(225deg);}
-    85.2%{filter :hue-rotate(270deg);}
-    100%{filter :hue-rotate(315deg);}     
+.wrapper { 
+    height: 100%;
+    width: 100%;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
 }
-@-moz-keyframes rainbow {
-    0%{filter :hue-rotate(0deg);}   
-    14%{filter :hue-rotate(45deg);} 
-    28%{filter :hue-rotate(90deg);}
-    32%{filter :hue-rotate(135deg);}
-    43%{filter :hue-rotate(180deg);}
-    71%{filter :hue-rotate(225deg);}
-    85.2%{filter :hue-rotate(270deg);}
-    100%{filter :hue-rotate(315deg);}
-}
-@-o-keyframes rainbow {
-    0%{filter :hue-rotate(0deg);}   
-    14%{filter :hue-rotate(45deg);} 
-    28%{filter :hue-rotate(90deg);}
-    32%{filter :hue-rotate(135deg);}
-    43%{filter :hue-rotate(180deg);}
-    71%{filter :hue-rotate(225deg);}
-    85.2%{filter :hue-rotate(270deg);}
-    100%{filter :hue-rotate(315deg);}
-}
-@keyframes rainbow { 
-    0%{filter :hue-rotate(0deg);}   
-    14%{filter :hue-rotate(45deg);} 
-    28%{filter :hue-rotate(90deg);}
-    32%{filter :hue-rotate(135deg);}
-    43%{filter :hue-rotate(180deg);}
-    71%{filter :hue-rotate(225deg);}
-    85.2%{filter :hue-rotate(270deg);}
-    100%{filter :hue-rotate(315deg);}
-}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
