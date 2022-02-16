@@ -1,1 +1,7 @@
 # vimium-css-simple-pack
+This is a CSS for vimium.
+
+#How to use?
+First, open the vimium settings.
+Then click Show advanced options.
+Copy the CSS and paste it into the text area of "CSS for Vimium UI".
