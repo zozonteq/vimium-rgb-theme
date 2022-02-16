@@ -13,9 +13,6 @@ Copy the CSS and paste it into the text area of "CSS for Vimium UI".
 # URLs
 Vimium Extention download link : https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb
 
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
 ## Auther 
-[tcnksm](https://github.com/tcnksm)
+[ZozonTeq](https://github.com/ZozonTeq)
