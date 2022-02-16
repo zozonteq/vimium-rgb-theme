@@ -1,0 +1,16 @@
+# vimium-css
+Vimium用のテーマです。
+
+## 使い方
+Vimiumの設定を開きます。そして「Show advanced options.」をクリック。気に入ったCSSをコピーして「CSS for Vimium UI」の横のテキストエリアに貼り付け。最後に「Save Changes」をクリックし保存。
+## テーマ
+### rgb_black(アニメーション有り)
+![GIF](https://github.com/ZozonTeq/vimium-css/blob/main/image/rgbblack.gif)
+### rgb_white(アニメーション有り)
+![GIF](https://github.com/ZozonTeq/vimium-css/blob/main/image/rgbwhite.gif)
+# URLs
+Vimiumのダウンロードリンク: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb
+
+
+## 作成者 
+[ZozonTeq](https://github.com/ZozonTeq)
