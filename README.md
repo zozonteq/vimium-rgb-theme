@@ -1,5 +1,5 @@
 # vimium-css-simple-pack
-This is a CSS for vimium.
+This is a theme for vimium.
 
 # How to use?
 First, open the vimium settings.
