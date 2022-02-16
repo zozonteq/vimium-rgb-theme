@@ -1,4 +1,4 @@
-# vimium-css-simple-pack
+# vimium-css
 This is a theme for vimium.
 
 ## How to use?
