@@ -1,14 +1,14 @@
 div > .vimiumHintMarker {
 
     border: solid #ff2400 1px !important;
-    border-radius: 1px 1px 1px 1px;
+    border-radius: 3px 3px 3px 3px;
     background: black !important;
     background-size: 800% 800%;
     box-shadow: #ff2400 0px 0px 5px 2px;
     -webkit-animation: rainbow 5s ease infinite;
     -z-animation: rainbow 5s ease infinite;
     -o-animation: rainbow 5s ease infinite;
-      animation: rainbow 5s ease infinite;
+    animation: rainbow 5s ease infinite;
 }
 div > .vimiumHintMarker span {
     color: white !important;
@@ -17,34 +17,17 @@ div > .vimiumHintMarker span {
 }
 div > .vimiumHintMarker > .matchingCharacter {
 }
-.wrapper { 
-    height: 100%;
-    width: 100%;
-    left:0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-  background: #ff2400;
-  background-size: 1800% 1800%;
-  
-  -webkit-animation: rainbow 18s ease infinite;
-  -z-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
-    animation: rainbow 18s ease infinite;
+@-webkit-keyframes rainbow {
+    0%{filter :hue-rotate(0deg);}   
+    14%{filter :hue-rotate(45deg);} 
+    28%{filter :hue-rotate(90deg);}
+    32%{filter :hue-rotate(135deg);}
+    43%{filter :hue-rotate(180deg);}
+    71%{filter :hue-rotate(225deg);}
+    85.2%{filter :hue-rotate(270deg);}
+    100%{filter :hue-rotate(315deg);}     
 }
-  
-  @-webkit-keyframes rainbow {
-      0%{filter :hue-rotate(0deg);}   
-      14%{filter :hue-rotate(45deg);} 
-      28%{filter :hue-rotate(90deg);}
-      32%{filter :hue-rotate(135deg);}
-      43%{filter :hue-rotate(180deg);}
-      71%{filter :hue-rotate(225deg);}
-      85.2%{filter :hue-rotate(270deg);}
-      100%{filter :hue-rotate(315deg);}     
-  }
-  @-moz-keyframes rainbow {
+@-moz-keyframes rainbow {
     0%{filter :hue-rotate(0deg);}   
     14%{filter :hue-rotate(45deg);} 
     28%{filter :hue-rotate(90deg);}
@@ -53,8 +36,8 @@ div > .vimiumHintMarker > .matchingCharacter {
     71%{filter :hue-rotate(225deg);}
     85.2%{filter :hue-rotate(270deg);}
     100%{filter :hue-rotate(315deg);}
-  }
-  @-o-keyframes rainbow {
+}
+@-o-keyframes rainbow {
     0%{filter :hue-rotate(0deg);}   
     14%{filter :hue-rotate(45deg);} 
     28%{filter :hue-rotate(90deg);}
@@ -63,14 +46,14 @@ div > .vimiumHintMarker > .matchingCharacter {
     71%{filter :hue-rotate(225deg);}
     85.2%{filter :hue-rotate(270deg);}
     100%{filter :hue-rotate(315deg);}
-  }
-  @keyframes rainbow { 
-      0%{filter :hue-rotate(0deg);}   
-      14%{filter :hue-rotate(45deg);} 
-      28%{filter :hue-rotate(90deg);}
-      32%{filter :hue-rotate(135deg);}
-      43%{filter :hue-rotate(180deg);}
-      71%{filter :hue-rotate(225deg);}
-      85.2%{filter :hue-rotate(270deg);}
-      100%{filter :hue-rotate(315deg);}
-  }
+}
+@keyframes rainbow { 
+    0%{filter :hue-rotate(0deg);}   
+    14%{filter :hue-rotate(45deg);} 
+    28%{filter :hue-rotate(90deg);}
+    32%{filter :hue-rotate(135deg);}
+    43%{filter :hue-rotate(180deg);}
+    71%{filter :hue-rotate(225deg);}
+    85.2%{filter :hue-rotate(270deg);}
+    100%{filter :hue-rotate(315deg);}
+}
