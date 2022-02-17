@@ -11,4 +11,5 @@ div > .vimiumHintMarker span {
 }
     
 div > .vimiumHintMarker > .matchingCharacter {
+    color :rgb(126, 126, 126) !important;
 }

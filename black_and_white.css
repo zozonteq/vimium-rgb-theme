@@ -9,4 +9,5 @@ div > .vimiumHintMarker span {
     font-size: 12px !important;
 }
 div > .vimiumHintMarker > .matchingCharacter {
+    color: gray !important;
 }
