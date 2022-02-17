@@ -1,3 +1,4 @@
+#### [English](https://github.com/ZozonTeq/vimium-css/blob/main/README.md) [日本語](https://github.com/ZozonTeq/vimium-css/blob/main/README.ja.md) 
 # vimium-css
 vimiumのテーマです。
 ## 使い方
