@@ -1,5 +1,5 @@
-#### [English](https://github.com/ZozonTeq/vimium-css/blob/main/README.md) [日本語](https://github.com/ZozonTeq/vimium-css/blob/main/README.ja.md) 
-# vimium-css
+#### [English](https://github.com/ZozonTeq/vimium-rgb-theme/blob/main/README.md) [日本語](https://github.com/ZozonTeq/vimium-rgb-theme/blob/main/README.ja.md) 
+# vimium-rgb-theme
 vimiumのテーマです。
 ## 使い方
 初めにvimiumの設定を開きます。
@@ -8,9 +8,9 @@ CSSをコピーし「CSS for Vimium UI」の隣のテキストエリアに貼り
 セーブしてブラウザーを再起動すると適用されます。
 ## テーマ
 ### rgb_black(アニメーション)
-![GIF](https://github.com/ZozonTeq/vimium-css/blob/main/image/rgbblack.gif)
+![GIF](https://github.com/ZozonTeq/vimium-rgb-theme/blob/main/image/rgbblack.gif)
 ### rgb_white(アニメーション)
-![GIF](https://github.com/ZozonTeq/vimium-css/blob/main/image/rgbwhite.gif)
+![GIF](https://github.com/ZozonTeq/vimium-rgb-theme/blob/main/image/rgbwhite.gif)
 # URL
 Vimium ダウンロードリンク: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb
 
