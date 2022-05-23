@@ -1,5 +1,5 @@
 #### [English](https://github.com/ZozonTeq/vimium-rgb-theme/blob/main/README.md) [日本語](https://github.com/ZozonTeq/vimium-rgb-theme/blob/main/README.ja.md) 
-# vimium-css
+# vimium-rgb-theme
 
 This is a theme for vimium.
 
