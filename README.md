@@ -4,10 +4,10 @@
 This is a theme for vimium.
 
 ## How to use?
-First, open the vimium settings.
-Then click Show advanced options.
-Copy the CSS and paste it into the text area of "CSS for Vimium UI".
-Finally save.
+First, open the vimium settings.  
+Then click Show advanced options.  
+Copy the CSS and paste it into the text area of "CSS for Vimium UI".  
+Finally save.  
 ## Themes
 ### rgb_black(Animated)
 ![GIF](https://github.com/ZozonTeq/vimium-rgb-theme/blob/main/image/rgbblack.gif)
